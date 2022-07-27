@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'mixins';
+@import 'banner';
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('/fonts/roboto-v15-latin-regular.woff2') format('woff2');
+}
+
+
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
